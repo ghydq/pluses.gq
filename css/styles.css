@@ -56,12 +56,13 @@ nav .logo {
 
 nav .nav-items {
   list-style-type: none;
+  padding-right: 10rem;
+
   display: flex;
 }
 
 nav .nav-items .nav-item {
   padding-left: 3rem;
-  padding-right: 10rem;
 }
 
 .nav-item .nav-link {
