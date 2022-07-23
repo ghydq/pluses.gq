@@ -56,7 +56,7 @@ nav .logo {
 
 nav .nav-items {
   list-style-type: none;
-  display: flexbox;
+  display: flex;
 }
 
 nav .nav-items .nav-item {
