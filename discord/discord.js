@@ -15,4 +15,4 @@ app.get('/auth/discord', (request, response) => {
 });
 
 const port = '53134';
-app.listen(port, () => console.log(`App listening at https://pluses.gq:${port}`));
+app.listen(port, () => console.log(`App listening at https://pluses.gq/discord/dashboard.html:${port}`));
