@@ -299,11 +299,19 @@ footer .icon:hover {
 /* تصميم لأحجام مختفلة */
 
 @media screen and (max-width: 1400px) {
+  .hero {
+    margin: 5rem 0;
+    height : 10vh
+  }
   main {
     max-width: 1024px;
   }
+
 }
 @media screen and (max-width: 1050px) {
+  .hero {
+    height : 1000vh
+  }
   main {
     max-width: 768px;
   }
@@ -316,6 +324,9 @@ footer .icon:hover {
 }
 
 @media screen and (max-width: 800px) {
+  .hero {
+    height : 10vh
+  }
   main {
     max-width: 600px;
   }
@@ -337,6 +348,7 @@ footer .icon:hover {
   }
   .hero {
     margin: 5rem 0;
+    height : 10vh
   }
   .hero h1 {
     width: 80%;
