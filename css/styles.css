@@ -307,7 +307,7 @@ footer .icon:hover {
   }
   .hero {
     margin: 5rem 0;
-    height : 10vh
+
   }
   main {
     max-width: 1024px;
@@ -321,9 +321,7 @@ footer .icon:hover {
     font-size: 2rem;
   
   }
-  .hero {
-    height : 1000vh
-  }
+
   main {
     max-width: 768px;
   }
@@ -342,9 +340,7 @@ footer .icon:hover {
     font-size: 2rem;
   
   }
-  .hero {
-    height : 10vh
-  }
+
   main {
     max-width: 600px;
   }
@@ -372,7 +368,6 @@ footer .icon:hover {
   }
   .hero {
     margin: 5rem 0;
-    height : 10vh
   }
   .hero h1 {
     width: 80%;
