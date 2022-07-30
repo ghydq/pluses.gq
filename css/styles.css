@@ -319,6 +319,8 @@ footer .icon:hover {
     color: var(--dark-purple);
     margin-bottom: 2rem;
     font-size: 2rem;
+    visibility:visible;
+
   
   }
 
@@ -338,6 +340,8 @@ footer .icon:hover {
     color: var(--dark-purple);
     margin-bottom: 2rem;
     font-size: 2rem;
+    visibility:visible;
+
   
   }
 
@@ -357,6 +361,8 @@ footer .icon:hover {
     color: var(--dark-purple);
     margin-bottom: 2rem;
     font-size: 2rem;
+    visibility:visible;
+
   
   }
   main {
