@@ -177,9 +177,9 @@ nav .nav-items .nav-item {
 }
 
 .feature .content i {
-  color: var(--dark-purple);
-  margin-bottom: 2rem;
-  font-size: 2rem;
+
+  visibility: hidden;
+
 }
 
 .feature .content h2 {
@@ -299,6 +299,12 @@ footer .icon:hover {
 /* تصميم لأحجام مختفلة */
 
 @media screen and (max-width: 1400px) {
+  .feature .content i {
+    color: var(--dark-purple);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  
+  }
   .hero {
     margin: 5rem 0;
     height : 10vh
@@ -309,6 +315,12 @@ footer .icon:hover {
 
 }
 @media screen and (max-width: 1050px) {
+  .feature .content i {
+    color: var(--dark-purple);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  
+  }
   .hero {
     height : 1000vh
   }
@@ -324,6 +336,12 @@ footer .icon:hover {
 }
 
 @media screen and (max-width: 800px) {
+  .feature .content i {
+    color: var(--dark-purple);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  
+  }
   .hero {
     height : 10vh
   }
@@ -339,6 +357,12 @@ footer .icon:hover {
 }
 
 @media screen and (max-width: 600px) {
+  .feature .content i {
+    color: var(--dark-purple);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  
+  }
   main {
     margin: 2rem;
     text-align: center;
