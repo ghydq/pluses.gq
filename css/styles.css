@@ -297,6 +297,20 @@ footer .icon:hover {
 }
 
 /* تصميم لأحجام مختفلة */
+@media screen and (max-width: 1280px){
+
+
+  .feature img {
+    flex: 1;
+    max-width: 35%;
+    max-height: 25%;
+  }
+
+
+
+}
+
+
 
 @media screen and (max-width: 1400px) {
   .feature .content i {
