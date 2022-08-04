@@ -1279,3 +1279,11 @@ margin: 1em;
   transform: scale(1.1);
   transition: all 0.6s;
 }
+
+.long{
+  align-items: center;
+  align-content: center;
+  width: 200vh;
+  height: 15vh;
+
+}
