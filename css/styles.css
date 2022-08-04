@@ -7,6 +7,7 @@
   --dark-purple: #4c3fe2;
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -181,6 +182,13 @@ nav .nav-items .nav-item {
 .cta.purple:hover {
   background-color: var(--dark-purple);
 }
+details h3{
+
+  color: var(--gray);
+
+}
+
+
 
 /* الميزات */
 .features {
