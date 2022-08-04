@@ -182,14 +182,11 @@ nav .nav-items .nav-item {
 .cta.purple:hover {
   background-color: var(--dark-purple);
 }
-details h3{
+.detail h3{
 
-  color: var(--gray);
+  color: var(--dark-purple);
 
 }
-
-
-
 /* الميزات */
 .features {
   display: flex;
@@ -284,7 +281,7 @@ details h3{
 
 .detail {
   background-color: #252731;
-  padding: 3rem;
+  padding: 1rem;
   border-radius: 2rem;
   transition: all 0.6s;
 
@@ -292,11 +289,6 @@ details h3{
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-.detail i {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  color: var(--light-purple);
-}
 
 .detail h3 {
   font-size: 2rem;
