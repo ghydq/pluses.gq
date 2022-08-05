@@ -25,9 +25,6 @@ input{
 h3{  transition: all 0.6s;
 
 
-  margin: 0.7em;
-
-
 }
 h1{
   transition: all 0.6s;
@@ -182,11 +179,7 @@ nav .nav-items .nav-item {
 .cta.purple:hover {
   background-color: var(--dark-purple);
 }
-.detail h3{
 
-  color: var(--dark-purple);
-
-}
 /* الميزات */
 .features {
   display: flex;
@@ -252,53 +245,6 @@ nav .nav-items .nav-item {
 }
 
 /* التفاصيل */
-.details {
-  margin-top: 10rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10rem;
-}
-
-.details h2 {
-  color: var(--white);
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.details h6 {
-  color: var(--gray);
-  font-size: 1rem;
-  
-}
-
-.details-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
-  margin-top: 4rem;
-}
-
-.detail {
-  background-color: #252731;
-  padding: 1rem;
-  border-radius: 2rem;
-  transition: all 0.6s;
-
-  color: var(--white);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-}
-
-
-.detail h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.detail p {
-  color: var(--gray);
-}
-
 /* التذييل */
 footer {
   background-color: #252731;
@@ -661,13 +607,7 @@ input{
 
 
 }
-h3{  transition: all 0.6s;
 
-
-  margin: 0.7em;
-
-
-}
 h1{
   transition: all 0.6s;
 
@@ -916,7 +856,7 @@ nav .nav-items .nav-item {
 
 .detail {
   background-color: #252731;
-  padding: 3rem;
+  padding: 1.5rem;
   border-radius: 2rem;
   transition: all 0.6s;
 
@@ -926,7 +866,7 @@ nav .nav-items .nav-item {
 
 .detail i {
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: var(--light-purple);
 }
 
