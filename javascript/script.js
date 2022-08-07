@@ -1,4 +1,3 @@
-
 (function($) { "use strict";
 		
 	//Page cursors
@@ -63,6 +62,6 @@
 			$("body").addClass("light");
 			$("#switch").addClass("switched");
 		}
-	});
-	
+	});          
+              
 })(jQuery); 
