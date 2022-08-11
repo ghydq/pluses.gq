@@ -49,14 +49,8 @@
         </div>
       </div>
     </nav>
-    <script type="text/javascript" src="https://pluses.gq/.netlify/identity"></script>
 
-    <div data-netlify-identity-menu></div>
 
-    <!-- Add a simpler button:
-      Simple button that will open the modal.
-    -->
-    <div data-netlify-identity-button>Login with Netlify Identity</div>
     <!-- ============================================-->
     <!-- <section> begin ============================-->
     <section class="mt-6">
@@ -344,7 +338,18 @@
     
     <br><br>
 
+    <body>
+      <!-- Add a menu:
+       Log in / Sign up - when the user is not logged in
+       Username / Log out - when the user is logged in
+      -->  <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
+      <div data-netlify-identity-menu></div>
+    
+      <!-- Add a simpler button:
+        Simple button that will open the modal.
+      -->
+      <div data-netlify-identity-button>Login with Netlify Identity</div>
     <!-- ============================================-->
     <!-- <section> begin ============================-->
       <center>
